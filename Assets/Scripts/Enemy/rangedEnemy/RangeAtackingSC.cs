@@ -18,6 +18,8 @@ public class RangeAtackingSC : MonoBehaviour
     public float bulletSpeed = 10f;
     public Transform playerposition;
 
+    public Death deathSC;
+
     Rigidbody rb;
 
     //public bool canSeePlayer;
@@ -78,10 +80,10 @@ public class RangeAtackingSC : MonoBehaviour
                     yield return new WaitForSeconds(reloadTime);
                 }
 
-                if (rb.freezeRotation == false)
+                if (deathSC.deathBool == true)
                 {
                     StopCoroutine("ShootCoroutine");
-                    yield return null;
+                    //yield return null;
                 }
             }
 
@@ -89,6 +91,11 @@ public class RangeAtackingSC : MonoBehaviour
 
         }
 
+        if (deathSC.deathBool == true)
+        {
+            StopCoroutine("ShootCoroutine");
+            //yield return null;
+        }
         yield return null;
     }
 

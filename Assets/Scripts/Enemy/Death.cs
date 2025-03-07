@@ -8,9 +8,11 @@ public class Death : MonoBehaviour
     public GameObject areaOfAwarenss;
     public Behaviour AtackingSC;
 
+    public bool deathBool;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        deathBool = false;
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class Death : MonoBehaviour
     {
         if(other.tag == "Attacking")
         {
+            deathBool = true;
             rb.freezeRotation = false;
             areaOfAwarenss.SetActive(false);
             AtackingSC.enabled = false;

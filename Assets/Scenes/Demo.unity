@@ -316,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaOfAwarenss: {fileID: 1921955557}
   AtackingSC: {fileID: 53556029}
+  deathBool: 0
 --- !u!1 &65005759
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,6 +3983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaOfAwarenss: {fileID: 328459939}
   AtackingSC: {fileID: 952508690}
+  deathBool: 0
 --- !u!114 &952508690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4005,6 +4007,7 @@ MonoBehaviour:
   maxAmmo: 10
   bulletSpeed: 1000
   playerposition: {fileID: 1652635638}
+  deathSC: {fileID: 952508689}
 --- !u!1 &953564447
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,6 +4685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaOfAwarenss: {fileID: 0}
   AtackingSC: {fileID: 0}
+  deathBool: 0
 --- !u!1001 &1119363677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6195,6 +6199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   areaOfAwarenss: {fileID: 1555299298}
   AtackingSC: {fileID: 1609837911}
+  deathBool: 0
 --- !u!1 &1614266616
 GameObject:
   m_ObjectHideFlags: 0
