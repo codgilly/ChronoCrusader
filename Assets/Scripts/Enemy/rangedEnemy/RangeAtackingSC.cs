@@ -78,16 +78,18 @@ public class RangeAtackingSC : MonoBehaviour
                     yield return new WaitForSeconds(reloadTime);
                 }
 
+                if (rb.freezeRotation == false)
+                {
+                    StopCoroutine(ShootCoroutine());
+                }
             }
 
             yield return null;
 
         }
 
-
         yield return null;
-
-
-
     }
+
+    public void StopSpawn() => StartCoroutine("ShootCoroutine");
 }
