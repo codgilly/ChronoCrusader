@@ -21,9 +21,14 @@ public class Hold : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, pickupRange))
                 {
+                    if(hit.transform.gameObject.name != "AreaOfKnowledge")
+                    {
+                        PickUpObject(hit.transform.gameObject);
 
-                    PickUpObject(hit.transform.gameObject);
+                    }
+
                 }
+
             }
             else
             {

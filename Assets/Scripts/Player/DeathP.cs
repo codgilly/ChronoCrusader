@@ -18,7 +18,7 @@ public class DeathP : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == ("Bullet"))
+        if (other.gameObject.tag == ("AttackedEnemy"))
         {
             print("Dead Player");
         }
