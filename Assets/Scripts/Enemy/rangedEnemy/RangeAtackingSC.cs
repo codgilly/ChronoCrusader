@@ -80,7 +80,8 @@ public class RangeAtackingSC : MonoBehaviour
 
                 if (rb.freezeRotation == false)
                 {
-                    StopCoroutine(ShootCoroutine());
+                    StopCoroutine("ShootCoroutine");
+                    yield return null;
                 }
             }
 

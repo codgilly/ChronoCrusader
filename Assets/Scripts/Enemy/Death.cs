@@ -8,11 +8,9 @@ public class Death : MonoBehaviour
     public GameObject areaOfAwarenss;
     public Behaviour AtackingSC;
 
-    RangeAtackingSC stopAttacking;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        //stopAttacking = GetComponent<RangeAtackingSC>();
     }
 
     // Update is called once per frame
@@ -28,7 +26,6 @@ public class Death : MonoBehaviour
             rb.freezeRotation = false;
             areaOfAwarenss.SetActive(false);
             AtackingSC.enabled = false;
-            stopAttacking.StopCoroutine("ShootCoroutine");
             print("dead");
         }
     }
