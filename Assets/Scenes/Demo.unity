@@ -2909,6 +2909,37 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &679926480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 679926481}
+  m_Layer: 0
+  m_Name: Book
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &679926481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679926480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -31.428255, y: -4.8284445, z: 4.7905455}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &704140026
 GameObject:
   m_ObjectHideFlags: 0
@@ -3968,11 +3999,11 @@ MonoBehaviour:
   AreaSC: {fileID: 328459944}
   bullet: {fileID: 9222552379675658560, guid: 5d54f430d8d11094a94f662098759857, type: 3}
   spawnPoint: {fileID: 2143607577}
-  reloadSpeed: 15.9
-  reloadTime: 18.9
+  waitTime: 1.2
+  reloadTime: 3
   ammo: 10
   maxAmmo: 10
-  bulletSpeed: 0.01
+  bulletSpeed: 1000
   playerposition: {fileID: 1652635638}
 --- !u!1 &953564447
 GameObject:
@@ -8677,3 +8708,4 @@ SceneRoots:
   - {fileID: 53556027}
   - {fileID: 952508685}
   - {fileID: 1113611937}
+  - {fileID: 679926481}
