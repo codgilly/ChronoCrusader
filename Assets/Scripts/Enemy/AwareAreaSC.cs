@@ -11,7 +11,7 @@ public class AwareAreaSC : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.name == "Player")
+        if(other.gameObject.name == "Player" || other.gameObject.tag == "Parrying")
         {
             canSeePlayer = true;
             //print("can see player");
@@ -20,7 +20,7 @@ public class AwareAreaSC : MonoBehaviour
 
     public void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Player")
+        if (other.gameObject.name == "Player" || other.gameObject.tag == "Parrying")
         {
             canSeePlayer = false;
             //print("can't see player");

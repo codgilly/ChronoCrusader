@@ -10,6 +10,9 @@ TagManager:
   - AreaOfKnowledge
   - AttackedEnemy
   - DeathZone
+  - Enemy
+  - AttackFromEnemy
+  - DeadEnemy
   layers:
   - Default
   - TransparentFX

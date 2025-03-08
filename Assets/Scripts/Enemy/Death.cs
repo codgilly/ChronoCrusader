@@ -8,6 +8,8 @@ public class Death : MonoBehaviour
     public GameObject areaOfAwarenss;
     public Behaviour AtackingSC;
 
+    public GameObject linkedEnemy;
+
     public bool deathBool;
     void Start()
     {
@@ -25,11 +27,18 @@ public class Death : MonoBehaviour
     {
         if(other.tag == "Attacking")
         {
-            deathBool = true;
-            rb.freezeRotation = false;
-            areaOfAwarenss.SetActive(false);
-            AtackingSC.enabled = false;
-            print("dead");
+            DeadEnemy();
+            linkedEnemy.GetComponent<Death>().DeadEnemy();
+            gameObject.SetActive(false);
         }
+    }
+
+    public void DeadEnemy()
+    {
+        deathBool = true;
+        rb.freezeRotation = false;
+        areaOfAwarenss.SetActive(false);
+        AtackingSC.enabled = false;
+        print("dead");
     }
 }

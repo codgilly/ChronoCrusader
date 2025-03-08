@@ -7,6 +7,8 @@ public class Dashing : MonoBehaviour
 {
     private CharacterController characterController;
 
+    [Header("Settings")]
+
     public float dashCount = 0;
     public float maxDashCount = 2;
     public float dashLength = 7.5f;
@@ -14,6 +16,13 @@ public class Dashing : MonoBehaviour
     public float dashTime = 3;
     public float dashCoolDown = 1.5f;
     public float dashTimmer;
+
+    [Header("SFX")]
+
+    AudioSource audioSource;
+    public AudioClip dashClip;
+
+    [Header("UI")]
 
     public Image dash1;
     public Image dash2;
@@ -24,6 +33,7 @@ public class Dashing : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        audioSource = GetComponent<AudioSource>();
 
         dashTimmer = dashCoolDown;
     }
@@ -71,6 +81,7 @@ public class Dashing : MonoBehaviour
     {
        
         dashCount++;
+        audioSource.PlayOneShot(dashClip);
         float startTime = Time.time;
         while (startTime + dashTime > Time.time)
         {

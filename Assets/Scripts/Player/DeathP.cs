@@ -6,6 +6,8 @@ public class DeathP : MonoBehaviour
 
     public GameObject DeathScreen;
 
+    //public GameObject player;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -27,7 +29,7 @@ public class DeathP : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == ("AttackedEnemy"))
+        if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag != ("Parrying"))
         {
             DeathScreen.SetActive(true);
            // print("Dead Player");
