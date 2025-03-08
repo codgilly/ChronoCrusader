@@ -22,7 +22,7 @@ public class SlowTime : MonoBehaviour
     public void TimeSlow()
     {
         Time.timeScale = 0.2f;
-        Invoke("TimeContinue", 1.9f);
+        Invoke("TimeContinue", 0.85f);
 
         StopAllCoroutines();
     }

@@ -1,26 +1,41 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class DeathP : MonoBehaviour
 {
     public int health = 1;
 
+    public GameObject DeathScreen;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        DeathScreen.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(DeathScreen == true)
+        {
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                Time.timeScale = 0;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == ("AttackedEnemy"))
         {
-            print("Dead Player");
+            DeathScreen.SetActive(true);
+           // print("Dead Player");
+        }
+
+        if (other.tag == "DeathZone")
+        {
+            DeathScreen.SetActive(true);
         }
     }
 }

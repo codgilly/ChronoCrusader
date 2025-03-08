@@ -9,6 +9,7 @@ TagManager:
   - Parrying
   - AreaOfKnowledge
   - AttackedEnemy
+  - DeathZone
   layers:
   - Default
   - TransparentFX

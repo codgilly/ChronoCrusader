@@ -1,11 +1,22 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class DeathPlaneSC : MonoBehaviour
 {
+
+    public GameObject DeathScreen;
+
+    private void Start()
+    {
+        DeathScreen.SetActive(true);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "nothing")
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        {
+            DeathScreen.SetActive(true);
+        }
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
