@@ -20,6 +20,8 @@ public class RangeAtackingSC : MonoBehaviour
 
     public Death deathSC;
 
+   
+
     Rigidbody rb;
 
     //public bool canSeePlayer;

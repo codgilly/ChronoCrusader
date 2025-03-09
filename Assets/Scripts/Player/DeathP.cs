@@ -1,10 +1,15 @@
+using System;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 public class DeathP : MonoBehaviour
 {
     public int health = 1;
 
     public GameObject DeathScreen;
+
+    public AudioClip Parry;
+    public AudioSource audioSource;
 
     //public GameObject player;
 
@@ -38,6 +43,11 @@ public class DeathP : MonoBehaviour
         if (other.tag == "DeathZone")
         {
             DeathScreen.SetActive(true);
+        }
+
+        if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag == ("Parrying"))
+        {
+            audioSource.PlayOneShot(Parry);
         }
     }
 }
