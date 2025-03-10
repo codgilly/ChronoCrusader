@@ -13,6 +13,7 @@ TagManager:
   - Enemy
   - AttackFromEnemy
   - DeadEnemy
+  - areaGO
   layers:
   - Default
   - TransparentFX

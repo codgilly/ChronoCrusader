@@ -5,8 +5,10 @@ public class Death : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     Rigidbody rb;
-    public GameObject areaOfAwarenss;
+    //public GameObject areaOfAwarenss;
     public Behaviour AtackingSC;
+
+    public Collider enemyCollider;
 
     public GameObject linkedEnemy;
 
@@ -25,11 +27,14 @@ public class Death : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Attacking")
+        if(enemyCollider.GetComponent<Collider>() != null)
         {
-            DeadEnemy();
-            linkedEnemy.GetComponent<Death>().DeadEnemy();
-            gameObject.SetActive(false);
+            if (other.tag == "Attacking")
+            {
+                DeadEnemy();
+                linkedEnemy.GetComponent<Death>().DeadEnemy();
+                gameObject.SetActive(false);
+            }
         }
     }
 
@@ -37,8 +42,9 @@ public class Death : MonoBehaviour
     {
         deathBool = true;
         rb.freezeRotation = false;
-        areaOfAwarenss.SetActive(false);
+        //areaOfAwarenss.SetActive(false);
         AtackingSC.enabled = false;
         print("dead");
+        linkedEnemy.GetComponent<Animator>().enabled = false;
     }
 }

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: AnimationWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -246,15 +246,15 @@ MonoBehaviour:
     y: 652
     width: 1500
     height: 281
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 51, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -420,23 +420,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 48a50000
-      m_LastClickedID: 42312
-      m_ExpandedIDs: f8faffff80a500007ca60000a8a60000
+      m_SelectedIDs: 06a6000016a60000
+      m_LastClickedID: 42518
+      m_ExpandedIDs: bef9fdffc417fffff8faffff34a50000cea5000006a6000016a600006ea6000086a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: EnemyMeleeTest
+        m_OriginalName: EnemyMeleeTest
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 42630
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 8}
@@ -1016,7 +1016,7 @@ MonoBehaviour:
       scrollOffset: 0
     m_OverlaysVisible: 1
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -1026,9 +1026,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -18.96604, y: -76.00018, z: -42.71651}
+    m_Target: {x: 35.37796, y: -112.91585, z: -8.825155}
     speed: 2
-    m_Value: {x: -18.96604, y: -76.00018, z: -42.71651}
+    m_Value: {x: 35.37796, y: -112.91585, z: -8.825155}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1074,13 +1074,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.11432587, y: -0.744312, z: 0.13238537, w: -0.64464813}
+    m_Target: {x: 0.015592681, y: -0.61424357, z: 0.012216122, w: 0.78898036}
     speed: 2
-    m_Value: {x: -0.11431628, y: -0.7442495, z: 0.13237426, w: -0.644594}
+    m_Value: {x: 0.015591298, y: -0.6141891, z: 0.012215039, w: 0.7889104}
   m_Size:
-    m_Target: 164.98708
+    m_Target: 1.898509
     speed: 2
-    m_Value: 164.98708
+    m_Value: 1.898509
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1247,7 +1247,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player/Skills
+    - Assets/Animations/Enemy/Melee
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1257,16 +1257,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player/Skills
+  - Assets/Animations/Enemy/Melee
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Temp\Unity\Programs\Y2\ChronoCrusader
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 5eaa0000
-    m_LastClickedID: 43614
-    m_ExpandedIDs: 0000000018a8000000aa000060aa000000ca9a3bffffff7f
+    m_SelectedIDs: f8930100
+    m_LastClickedID: 103416
+    m_ExpandedIDs: 0000000022a8000000aa00000caa000042aa000044aa0000f293010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1295,7 +1295,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000018a80000
+    m_ExpandedIDs: 0000000022a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1321,8 +1321,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: e624feff
+    m_LastClickedInstanceID: -121626
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e80b0100e6d2000082da000000000000
     m_RenameOverlay:
@@ -1375,9 +1375,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 737
-    width: 1500
-    height: 257
+    y: 731
+    width: 1499
+    height: 255
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1427,7 +1427,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 42664
+  m_LastSelectedObjectID: 42502
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 618
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

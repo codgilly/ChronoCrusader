@@ -4,9 +4,7 @@ using System.Collections;
 public class RangeAtackingSC : MonoBehaviour
 {
     [Header("settings")]
-    public GameObject areaOfKnowldge;
     public GameObject player;
-    public AwareAreaSC AreaSC;
 
     [Header("shooting")]
     public GameObject bullet;
@@ -31,31 +29,16 @@ public class RangeAtackingSC : MonoBehaviour
 
         StartCoroutine("ShootCoroutine");
 
-        if (AreaSC != null)
-        {
-            print("script working");
-        }
-        else
-        {
-            print("womp womp");
-        }
-
+       
     }
 
     void Update()
     {
         
-        if(AreaSC.canSeePlayer == true)
-        {
             //print("script sees player");
             rb.rotation = player.transform.rotation;
             transform.LookAt(playerposition);
             
-        }
-        else
-        {
-            //print("script doesn't see player");
-        }
       
     }
 
@@ -63,8 +46,6 @@ public class RangeAtackingSC : MonoBehaviour
     {
         while (true)
         {
-            if (AreaSC.canSeePlayer == true)
-            {
                 GameObject bulletObj = Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
                 Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
                 bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
@@ -87,16 +68,13 @@ public class RangeAtackingSC : MonoBehaviour
                     StopCoroutine("ShootCoroutine");
                     //yield return null;
                 }
-            }
-
-            yield return null;
-
         }
+            yield return null;
 
         if (deathSC.deathBool == true)
         {
+            this.enabled = false;
             StopCoroutine("ShootCoroutine");
-            //yield return null;
         }
         yield return null;
     }

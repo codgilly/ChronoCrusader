@@ -1,14 +1,19 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class MeleeAttackingSC : MonoBehaviour
 {
-    public GameObject areaOfKnowldge;
+    //public GameObject areaOfKnowldge;
     public GameObject player;
     public Transform playerposition;
-    public AwareAreaSC AreaSC;
+    //public AwareAreaSC AreaSC;
+
+    Death death;
 
     public float speed;
+
+    public GameObject spear;
 
     Rigidbody rb;
     Animator anim;
@@ -18,36 +23,26 @@ public class MeleeAttackingSC : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
 
-        if (AreaSC != null)
-        {
-            print("script working");
-        }
-        else
-        {
-            print("womp womp");
-        }
-
         StartCoroutine(MoveTowardsPlayer());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (AreaSC.canSeePlayer == true)
+        
+        //print("script sees player");
+        anim.SetBool("Spear", true);
+        rb.rotation = player.transform.rotation;
+        transform.LookAt(playerposition);
+        StartCoroutine(MoveTowardsPlayer());
+        MoveTowardsPlayer();
+        //transform.position = new Vector3.MoveTowards(transform.position, playerposition, speed * Time.deltaTime);
+
+        death.GetComponent<Death>();
+
+        if(death.deathBool == true)
         {
-            //print("script sees player");
-            anim.SetBool("Spear", true);
-            rb.rotation = player.transform.rotation;
-            transform.LookAt(playerposition);
-            StartCoroutine(MoveTowardsPlayer());
-            MoveTowardsPlayer();
-            //transform.position = new Vector3.MoveTowards(transform.position, playerposition, speed * Time.deltaTime);
-        }
-        else
-        {
-            anim.SetBool("Spear", false);
-            StopCoroutine(MoveTowardsPlayer());
-            //print("script doesn't see player");
+            SpearTag();
         }
     }
 
@@ -56,4 +51,15 @@ public class MeleeAttackingSC : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         yield return null;
     }
+
+    public void SpearTag()
+    {
+        spear.gameObject.tag = "nothing";
+    }
+
+    public void SpearAttackingTag()
+    {
+        spear.gameObject.tag = "AttackedEnemy";
+    }
+
 }
