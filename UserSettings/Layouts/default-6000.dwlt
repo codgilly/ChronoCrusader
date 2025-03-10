@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -420,9 +420,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 027efffff8faffffc8a5000080a60000b0a70000c4a700002ea80000b4f40000
+      m_SelectedIDs: 48a50000
+      m_LastClickedID: 42312
+      m_ExpandedIDs: f8faffff80a500007ca60000a8a60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1026,9 +1026,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -2.634685, y: -61.565258, z: 15.043901}
+    m_Target: {x: -18.96604, y: -76.00018, z: -42.71651}
     speed: 2
-    m_Value: {x: -2.634685, y: -61.565258, z: 15.043901}
+    m_Value: {x: -18.96604, y: -76.00018, z: -42.71651}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1074,13 +1074,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0011939837, y: -0.9966226, z: 0.08121632, w: -0.017684363}
+    m_Target: {x: -0.11432587, y: -0.744312, z: 0.13238537, w: -0.64464813}
     speed: 2
-    m_Value: {x: -0.0011938841, y: -0.9965395, z: 0.08120954, w: -0.017682888}
+    m_Value: {x: -0.11431628, y: -0.7442495, z: 0.13237426, w: -0.644594}
   m_Size:
-    m_Target: 1.2600226
+    m_Target: 164.98708
     speed: 2
-    m_Value: 1.2600226
+    m_Value: 164.98708
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1247,7 +1247,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Player/Skills
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1257,16 +1257,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts/Player/Skills
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Temp\Unity\Programs\Y2\ChronoCrusader
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ceaa0000
-    m_LastClickedID: 43726
-    m_ExpandedIDs: 00000000ceaa00002eab000032ab000036ab00003cab0000a0ab0000c4ab0000caab000056fe0000fc30010000ca9a3bffffff7f
+    m_SelectedIDs: 5eaa0000
+    m_LastClickedID: 43614
+    m_ExpandedIDs: 0000000018a8000000aa000060aa000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1295,7 +1295,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ceaa0000
+    m_ExpandedIDs: 0000000018a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1427,7 +1427,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -2570
+  m_LastSelectedObjectID: 42664
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 378
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
