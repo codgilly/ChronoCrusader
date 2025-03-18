@@ -22,14 +22,18 @@ public class Death : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(deathBool == true)
+        {
+            DeadEnemy();
+            linkedEnemy.GetComponent<Death>().DeadEnemy();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
         if(enemyCollider.GetComponent<Collider>() != null)
         {
-            if (other.tag == "Attacking")
+            if (other.tag == "Attacking" || deathBool == true)
             {
                 DeadEnemy();
                 linkedEnemy.GetComponent<Death>().DeadEnemy();
@@ -40,11 +44,21 @@ public class Death : MonoBehaviour
 
     public void DeadEnemy()
     {
-        deathBool = true;
         rb.freezeRotation = false;
         //areaOfAwarenss.SetActive(false);
         AtackingSC.enabled = false;
         print("dead");
+        linkedEnemy.GetComponent<Animator>().enabled = false;
+    }
+
+    public void HitByRay()
+    {
+        print("rayhit deathSC");
+        deathBool = true;
+        gameObject.SetActive(false);
+        linkedEnemy.GetComponent<Death>().DeadEnemy();
+        AtackingSC.enabled = false;
+        DeadEnemy();
         linkedEnemy.GetComponent<Animator>().enabled = false;
     }
 }

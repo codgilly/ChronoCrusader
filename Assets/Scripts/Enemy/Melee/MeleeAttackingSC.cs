@@ -9,7 +9,11 @@ public class MeleeAttackingSC : MonoBehaviour
     public Transform playerposition;
     //public AwareAreaSC AreaSC;
 
-    Death death;
+    public TimeSwap TS;
+
+    public bool isInPast;
+
+    public Death death;
 
     public float speed;
 
@@ -29,16 +33,16 @@ public class MeleeAttackingSC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        //print("script sees player");
-        anim.SetBool("Spear", true);
-        rb.rotation = player.transform.rotation;
-        transform.LookAt(playerposition);
-        StartCoroutine(MoveTowardsPlayer());
-        MoveTowardsPlayer();
-        //transform.position = new Vector3.MoveTowards(transform.position, playerposition, speed * Time.deltaTime);
+        if (TS.isInFuture == isInPast)
+        {
+            anim.SetBool("Spear", true);
+            rb.rotation = player.transform.rotation;
+            transform.LookAt(playerposition);
+            StartCoroutine(MoveTowardsPlayer());
+            MoveTowardsPlayer();
+        }
 
-        death.GetComponent<Death>();
+        //death.GetComponent<Death>();
 
         if(death.deathBool == true)
         {
