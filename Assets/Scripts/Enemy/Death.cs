@@ -13,9 +13,14 @@ public class Death : MonoBehaviour
     public GameObject linkedEnemy;
 
     public bool deathBool;
+
+    public bool isRanged;
+
+    public RangeAtackingSC Rangedenemy;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        Rangedenemy = GetComponent<RangeAtackingSC>();
         deathBool = false;
     }
 
@@ -24,9 +29,15 @@ public class Death : MonoBehaviour
     {
         if(deathBool == true)
         {
-            DeadEnemy();
-            linkedEnemy.GetComponent<Death>().DeadEnemy();
+            HitByRay();
+            linkedEnemy.GetComponent<Death>().HitByRay();
         }
+
+        if(this.gameObject.activeSelf == false)
+        {
+            linkedEnemy.GetComponent<Death>().HitByRay();
+        }
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -35,30 +46,30 @@ public class Death : MonoBehaviour
         {
             if (other.tag == "Attacking" || deathBool == true)
             {
-                DeadEnemy();
-                linkedEnemy.GetComponent<Death>().DeadEnemy();
+                HitByRay();
+                linkedEnemy.GetComponent<Death>().HitByRay();
                 gameObject.SetActive(false);
             }
         }
     }
 
-    public void DeadEnemy()
+    public void HitByRay()
     {
+        if (isRanged == true)
+        {
+            Rangedenemy.StopAllCoroutines();
+        }
         rb.freezeRotation = false;
-        //areaOfAwarenss.SetActive(false);
         AtackingSC.enabled = false;
         print("dead");
         linkedEnemy.GetComponent<Animator>().enabled = false;
     }
 
-    public void HitByRay()
+    public void deathGO()
     {
-        print("rayhit deathSC");
-        deathBool = true;
-        gameObject.SetActive(false);
-        linkedEnemy.GetComponent<Death>().DeadEnemy();
-        AtackingSC.enabled = false;
-        DeadEnemy();
-        linkedEnemy.GetComponent<Animator>().enabled = false;
+        linkedEnemy.GetComponent<Death>().HitByRay();
+
+        this.gameObject.SetActive(false);
     }
+
 }

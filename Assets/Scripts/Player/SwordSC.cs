@@ -98,6 +98,7 @@ public class SwordSC : MonoBehaviour
         {
             if (rayHit.transform.gameObject.tag == "Enemy")
             {
+                rayHit.transform.SendMessage("deathGO");
                 rayHit.transform.SendMessage("HitByRay");
                 print("hit");
             }

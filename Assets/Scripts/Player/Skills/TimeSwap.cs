@@ -18,7 +18,18 @@ public class TimeSwap : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Tab) )
+        //float myPositionChecker = Vector3.Distance(this.transform.position.y, pastPlane.position.y);
+
+        if (this.transform.position.y < pastPlane.transform.position.y)
+        {
+            isInFuture = false;
+        }
+        else
+        {
+            isInFuture = true;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Tab) )
         {
             //toggle the bool 
             isInFuture = isInFuture ?false:true;

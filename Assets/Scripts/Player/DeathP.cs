@@ -26,7 +26,7 @@ public class DeathP : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Backspace))
             {
-                Time.timeScale = 0;
+                Time.timeScale = 0f;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }

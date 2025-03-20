@@ -34,21 +34,17 @@ public class RangeAtackingSC : MonoBehaviour
         {
             print("womp womp");
         }
-
-        
     }
 
     void Update()
     {
-        
-        //print("script sees player");
         rb.rotation = player.transform.rotation;
         transform.LookAt(playerposition);
 
         if (deathSC.deathBool == true)
         {
-            this.enabled = false;
             StopCoroutine("ShootCoroutine");
+            deathSC.HitByRay();
         }
 
     }
@@ -57,7 +53,6 @@ public class RangeAtackingSC : MonoBehaviour
     {
         while (true)
         {
-          
             GameObject bulletObj = Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
             Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
             bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
@@ -65,33 +60,26 @@ public class RangeAtackingSC : MonoBehaviour
 
             yield return new WaitForSeconds(waitTime);
 
-            //wait for 0.5 seconds
-
             ammo--;
-
             if (ammo <= 0)
             {
                 ammo = maxAmmo;
                 yield return new WaitForSeconds(reloadTime);
             }
 
-
             if (deathSC.deathBool == true)
             {
+                STOP();
                 yield return new WaitForSeconds(Mathf.Infinity);
-                this.enabled = false;
-                StopCoroutine("ShootCoroutine");
             }
         }
         
-        if (deathSC.deathBool == true)
-        {
-            yield return new WaitForSeconds(Mathf.Infinity);
-            this.enabled = false;
-            StopCoroutine("ShootCoroutine");
-        }
-
         yield return null;
+    }
+
+    public void STOP()
+    {
+        StopAllCoroutines();
     }
 
     public void StopSpawn() => StartCoroutine("ShootCoroutine");
