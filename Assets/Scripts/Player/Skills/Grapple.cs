@@ -51,7 +51,7 @@ public class GrapplingGun : MonoBehaviour
         player.GetComponent<CharacterController>().Move(moveVector * grappleSpeed * Time.deltaTime);
 
         float distanceBetweenPlayerAndGraplePoint = Vector3.Distance(player.position, grapplingPoint);
-        if (distanceBetweenPlayerAndGraplePoint <= 3.9f)
+        if (distanceBetweenPlayerAndGraplePoint <= 4.4f)
         {
             StopGrapple();
         }

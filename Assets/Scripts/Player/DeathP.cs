@@ -11,12 +11,15 @@ public class DeathP : MonoBehaviour
     public AudioClip Parry;
     public AudioSource audioSource;
 
+    private int ThisScene;
+
     //public GameObject player;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         DeathScreen.SetActive(false);
+        ThisScene = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
@@ -26,8 +29,8 @@ public class DeathP : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.Backspace))
             {
-                Time.timeScale = 0f;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                //Time.timeScale = 0f;
+                SceneManager.LoadScene(ThisScene);
             }
         }
     }

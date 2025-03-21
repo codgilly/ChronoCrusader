@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: d6a37bf5882f1a048827f3f07a5f3dea
   - enabled: 1
-    path: Assets/Scenes/Demo.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/Levels/Tutorials/Field_reseption.unity
+    guid: 5f669b24f237f1d4eb3690fa27be0533
+  - enabled: 1
+    path: Assets/Scenes/Levels/Tutorials/sliding and dashing.unity
+    guid: 9d425f75254748a4bb184b91b831ab57
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
