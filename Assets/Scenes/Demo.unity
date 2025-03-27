@@ -2333,6 +2333,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25440bee65872904a8c2386e1c348a29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1652635644 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 8922467982055461494, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+  m_PrefabInstance: {fileID: 2882698823284768593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!81 &1652635654
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652635635}
+  m_Enabled: 0
 --- !u!1 &1680554725
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3051,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2400032159020235825, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1652635644}
+    - target: {fileID: 2400032159020235825, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1609837907}
@@ -3110,6 +3127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1652635644}
     - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: linkedEnemy
       value: 
@@ -3254,7 +3275,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7690850342813376740, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1652635654}
   m_SourcePrefab: {fileID: 100100000, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
 --- !u!1001 &5540724803920243648
 PrefabInstance:
@@ -3264,6 +3288,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2503000684474766735, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1652635644}
     - target: {fileID: 2503000684474766735, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: linkedEnemy
       value: 
@@ -3486,6 +3514,10 @@ PrefabInstance:
       propertyPath: playerposition
       value: 
       objectReference: {fileID: 1652635638}
+    - target: {fileID: 4869037766982179374, guid: f4f1970058ef14c49bb7e16d5b2c24a1, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1652635644}
     - target: {fileID: 4869037766982179374, guid: f4f1970058ef14c49bb7e16d5b2c24a1, type: 3}
       propertyPath: linkedEnemy
       value: 

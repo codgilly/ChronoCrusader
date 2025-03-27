@@ -24,6 +24,8 @@ public class RangeAtackingSC : MonoBehaviour
 
     Rigidbody rb;
 
+
+
     //public bool canSeePlayer;
     void Start()
     {
