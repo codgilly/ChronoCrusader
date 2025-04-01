@@ -360,6 +360,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5808493337774001889, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
   m_PrefabInstance: {fileID: 64108493}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &64108498 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8107323246224388123, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+  m_PrefabInstance: {fileID: 64108493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &79332280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,6 +437,10 @@ PrefabInstance:
       propertyPath: effect
       value: 
       objectReference: {fileID: 64108497}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 64108498}
     - target: {fileID: 6866244910523292904, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: pastPlane
       value: 

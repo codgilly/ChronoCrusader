@@ -3373,8 +3373,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 175331296}
     - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: effect
+      value: 
+      objectReference: {fileID: 8376743377156042638}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: checkPoint
+      value: 
+      objectReference: {fileID: 678952409}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: rewindSpeed
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: timespeedup
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: maxRewindDuration
@@ -3574,6 +3586,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+--- !u!1 &8376743377156042638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8107323246224388123, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+  m_PrefabInstance: {fileID: 8376743377156042637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8504829913361287270
 PrefabInstance:
   m_ObjectHideFlags: 0

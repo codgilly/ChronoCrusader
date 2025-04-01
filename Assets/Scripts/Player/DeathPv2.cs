@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System.Collections;
 using System;
@@ -8,6 +9,7 @@ public class DeathPv2 : MonoBehaviour
 {
     public float starttimer;
     bool timerON;
+    bool checkpointhit;
 
     //turn of movemnt 
     public Behaviour dash;
@@ -19,6 +21,13 @@ public class DeathPv2 : MonoBehaviour
 
     private List<TimeSnapShot> timeSnapshots = new List<TimeSnapShot>();
 
+    public GameObject checkPoint;
+
+    private int ThisScene;
+
+    public GameObject effect;
+
+    public float timespeedup;
     private struct TimeSnapShot
     {
         public Vector3 position;
@@ -35,6 +44,10 @@ public class DeathPv2 : MonoBehaviour
     void Start()
     {
         timerON = true;
+        checkpointhit = false;
+
+        ThisScene = SceneManager.GetActiveScene().buildIndex;
+
     }
 
     // Update is called once per frame
@@ -73,17 +86,21 @@ public class DeathPv2 : MonoBehaviour
 
     void StartRewind()
     {
+        Time.timeScale = timespeedup;
         movemnt.enabled = false;
         dash.enabled = false;
         isRewinding = true;
         timerON = false;
+        effect.SetActive(true);
     }
 
     void StopRewind()
     {
+        Time.timeScale = 1f;
         movemnt.enabled = true;
         dash.enabled = true;
         isRewinding = false;
+        effect.SetActive(false);
     }
 
     void RecordSnapshot()
@@ -125,15 +142,22 @@ public class DeathPv2 : MonoBehaviour
 
         if (other.gameObject.tag == "DeathZone")
         {
-            starttimer -= Time.deltaTime;
+            if(checkpointhit == false)
+            {
+                SceneManager.LoadScene(ThisScene);
+            }
 
-            StartRewind();
+            else
+            {
+                transform.position = checkPoint.transform.position;
+                Physics.SyncTransforms();
+            }
         }
 
        if (other.gameObject.tag == "CheckPoint")
        {
             print("checkpointhit");
-         
+            checkpointhit = true;
             starttimer = 0;
        }
     }
