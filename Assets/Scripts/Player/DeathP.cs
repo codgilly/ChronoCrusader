@@ -39,13 +39,13 @@ public class DeathP : MonoBehaviour
     {
         if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag != ("Parrying"))
         {
-            DeathScreen.SetActive(true);
+            //DeathScreen.SetActive(true);
            // print("Dead Player");
         }
 
         if (other.tag == "DeathZone")
         {
-            DeathScreen.SetActive(true);
+            //DeathScreen.SetActive(true);
         }
 
         if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag == ("Parrying"))

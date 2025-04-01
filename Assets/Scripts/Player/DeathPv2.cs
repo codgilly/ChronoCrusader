@@ -6,18 +6,18 @@ using UnityEngine.Audio;
 
 public class DeathPv2 : MonoBehaviour
 {
-    public float timer;
+    public float starttimer;
     bool timerON;
 
-    bool hitCheckPoint;
+    //turn of movemnt 
+    public Behaviour dash;
+    public Behaviour movemnt;
 
     public float maxRewindDuration = 5f;
     public float rewindSpeed = 2f;
     private bool isRewinding = false;
 
     private List<TimeSnapShot> timeSnapshots = new List<TimeSnapShot>();
-
-    GameObject[] checkpoints;
 
     private struct TimeSnapShot
     {
@@ -35,18 +35,27 @@ public class DeathPv2 : MonoBehaviour
     void Start()
     {
         timerON = true;
-
-        if (timerON == true)
-        {
-            timer += Time.deltaTime;
-        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-       
+        if (timerON == true)
+        {
+            starttimer += Time.deltaTime;
+        }
+
+        if(isRewinding == true)
+        {
+            starttimer -= Time.deltaTime;
+
+            if (starttimer <= 0)
+            {
+                StopRewind();
+                timerON = true;
+            }
+        }
+
     }
 
     private void FixedUpdate()
@@ -64,11 +73,16 @@ public class DeathPv2 : MonoBehaviour
 
     void StartRewind()
     {
+        movemnt.enabled = false;
+        dash.enabled = false;
         isRewinding = true;
+        timerON = false;
     }
 
     void StopRewind()
     {
+        movemnt.enabled = true;
+        dash.enabled = true;
         isRewinding = false;
     }
 
@@ -104,50 +118,23 @@ public class DeathPv2 : MonoBehaviour
     {
         if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag != ("Parrying"))
         {
+            print("rewinding");
+
             StartRewind();
-
-            if (hitCheckPoint == false)
-            {
-                timer -= Time.deltaTime;
-
-                if (timer == 0)
-                {
-                    StopRewind();
-                    timer += Time.deltaTime;
-                }
-            }
-
-            if (other.gameObject.tag == ("CheckPoint") && hitCheckPoint == true)
-            {
-                StopRewind();
-            }
         }
 
-        if (other.tag == "DeathZone")
+        if (other.gameObject.tag == "DeathZone")
         {
+            starttimer -= Time.deltaTime;
+
             StartRewind();
-
-            if (hitCheckPoint == false)
-            {
-                timer -= Time.deltaTime;
-
-                if (timer == 0)
-                {
-                    StopRewind();
-                    timer += Time.deltaTime;
-                }
-            }
-
-            if (other.gameObject.tag == ("CheckPoint") && hitCheckPoint == true)
-            {
-                StopRewind();
-            }
         }
 
-       if (other.tag == ("checkpoint"))
+       if (other.gameObject.tag == "CheckPoint")
        {
-            hitCheckPoint = true;
-            timerON = false;
+            print("checkpointhit");
+         
+            starttimer = 0;
        }
     }
 }

@@ -948,8 +948,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f5d4295914c8ae49a67c0aaea3700f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
-  maxRewindDuration: 5
+  starttimer: 0
+  dash: {fileID: 792133403641824164}
+  movemnt: {fileID: 386969476806012149}
+  maxRewindDuration: 30
   rewindSpeed: 2
 --- !u!136 &2810962868143387463
 CapsuleCollider:
