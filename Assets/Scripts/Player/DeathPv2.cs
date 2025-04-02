@@ -17,7 +17,7 @@ public class DeathPv2 : MonoBehaviour
 
     public float maxRewindDuration = 5f;
     public float rewindSpeed = 2f;
-    private bool isRewinding = false;
+    public bool isRewinding = false;
 
     private List<TimeSnapShot> timeSnapshots = new List<TimeSnapShot>();
 
@@ -160,5 +160,29 @@ public class DeathPv2 : MonoBehaviour
             checkpointhit = true;
             starttimer = 0;
        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == ("AttackedEnemy") && gameObject.tag != ("Parrying"))
+        {
+            print("rewinding");
+
+            StartRewind();
+        }
+
+        if (other.gameObject.tag == "DeathZone")
+        {
+            if (checkpointhit == false)
+            {
+                SceneManager.LoadScene(ThisScene);
+            }
+
+            else
+            {
+                transform.position = checkPoint.transform.position;
+                Physics.SyncTransforms();
+            }
+        }
     }
 }

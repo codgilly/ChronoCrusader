@@ -576,6 +576,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 406758575}
+  - component: {fileID: 406758576}
   m_Layer: 0
   m_Name: Level Manager
   m_TagString: Untagged
@@ -598,6 +599,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &406758576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406758574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ab4427a9bf84f142b8d3eadf6231821, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 1609837907}
+  - {fileID: 1019292568}
+  - {fileID: 952508681}
+  - {fileID: 950288680}
+  worldTimer: 0
+  rewindChecker: {fileID: 1652635656}
+  enemyReseet: {fileID: 0}
 --- !u!1 &443572936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,6 +2475,17 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652635635}
   m_Enabled: 0
+--- !u!114 &1652635656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+  m_PrefabInstance: {fileID: 2882698823284768593}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652635635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5d4295914c8ae49a67c0aaea3700f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1680554725
 GameObject:
   m_ObjectHideFlags: 0
