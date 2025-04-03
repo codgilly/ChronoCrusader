@@ -441,6 +441,10 @@ PrefabInstance:
       propertyPath: effect
       value: 
       objectReference: {fileID: 64108498}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: timespeedup
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6866244910523292904, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: pastPlane
       value: 
@@ -457,11 +461,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2807915422291826002, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+--- !u!114 &79332281 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+  m_PrefabInstance: {fileID: 79332280}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831833428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5d4295914c8ae49a67c0aaea3700f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &86464312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,6 +3106,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 2066005092}
+    - target: {fileID: 2400032159020235825, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 79332281}
     - target: {fileID: 3908350546936890362, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
       propertyPath: m_Name
       value: EnemyMeleeTest(Future)
@@ -6058,6 +6078,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 970725995}
+    - target: {fileID: 2400032159020235825, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 79332281}
     - target: {fileID: 3908350546936890362, guid: 807227e3a880e4a4ca9069cb775cafa1, type: 3}
       propertyPath: m_Name
       value: EnemyMeleeTest(Future) (1)

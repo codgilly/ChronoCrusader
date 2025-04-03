@@ -165,6 +165,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 237380040}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -483,6 +487,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 581657428}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -706,6 +714,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 2062057109}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -1728,6 +1740,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1357016465}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -1846,6 +1862,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1578787216}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -2459,6 +2479,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1852977630}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -2886,6 +2910,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1917516541}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -3473,6 +3501,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 588412814}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -3587,6 +3619,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 2089919679}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -4613,6 +4649,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 125080262}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -5271,6 +5311,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1116328797}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -5850,6 +5894,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 2051601073}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -5963,6 +6011,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1172292549}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -6076,6 +6128,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1569539811}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -6174,6 +6230,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1752144828}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -6406,6 +6466,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1694723696}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -6520,6 +6584,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 902651100}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -7178,6 +7246,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1834872495}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -7292,6 +7364,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 606805214}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -8169,6 +8245,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1868403500}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -8568,6 +8648,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 690627092}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -8789,6 +8873,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 321321491}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -10120,6 +10208,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1950578965}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -10531,6 +10623,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 2137251540}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -10739,6 +10835,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 812009832}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -12717,6 +12817,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1445053160}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -14268,6 +14372,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 601848062}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -14367,6 +14475,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1188685457}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -15332,6 +15444,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 433157400}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -16152,6 +16268,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1260181612}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -16266,6 +16386,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 615594246}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -16890,6 +17014,14 @@ PrefabInstance:
       propertyPath: effect
       value: 
       objectReference: {fileID: 1329430349}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: rewindSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: timespeedup
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6866244910523292904, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: pastPlane
       value: 
@@ -16906,7 +17038,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2807915422291826002, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -16920,6 +17053,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 25440bee65872904a8c2386e1c348a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1944877649 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+  m_PrefabInstance: {fileID: 1944877647}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930318858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5d4295914c8ae49a67c0aaea3700f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1950578965 stripped
@@ -17907,6 +18051,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 393652048}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -18128,6 +18276,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 893192539}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -18686,6 +18838,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 328760711}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -18908,6 +19064,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 48496584}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
@@ -19021,6 +19181,10 @@ PrefabInstance:
       propertyPath: linkedEnemy
       value: 
       objectReference: {fileID: 1487055598}
+    - target: {fileID: 1164895950840516621, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+      propertyPath: rewindChecker
+      value: 
+      objectReference: {fileID: 1944877649}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: TS
       value: 
