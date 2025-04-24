@@ -15,6 +15,7 @@ TagManager:
   - DeadEnemy
   - areaGO
   - CheckPoint
+  - PastPlatforms
   layers:
   - Default
   - TransparentFX
