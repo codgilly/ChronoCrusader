@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Animations;
 
 public class FireShooting : MonoBehaviour
 {
     public GameObject[] platforms;
     GameObject platformToAttack;
 
-    GameObject enemyHead;
+    public GameObject enemyHead;
 
     int index;
 
@@ -19,6 +20,8 @@ public class FireShooting : MonoBehaviour
     public int maxAmmo;
     public float bulletSpeed = 10f;
     public Transform platformPosition;
+
+    public GameObject heatBox;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,32 +39,45 @@ public class FireShooting : MonoBehaviour
 
     private IEnumerator ShootCoroutine()
     {
-        ChosePlatform();
-        GameObject bulletObj = Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
-        Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
-        bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
-        Destroy(bulletObj, 2f);
-
-        yield return new WaitForSeconds(waitTime);
-
-        ammo--;
-        if (ammo <= 0)
+        while (true) 
         {
-            ammo = maxAmmo;
-            yield return new WaitForSeconds(reloadTime);
+            ChosePlatform();
+            GameObject bulletObj = Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
+            Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
+            bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
+            Destroy(bulletObj, 2f);
+
+            yield return new WaitForSeconds(waitTime);
+
+            ammo--;
+            heatBox.transform.localScale -= new Vector3(4, 5, 6);
+            if (ammo <= 0)
+            {
+                heatBox.transform.localScale = new Vector3(0, 0, 0);
+                ammo = maxAmmo;
+                yield return new WaitForSeconds(reloadTime);
+                heatBox.transform.localScale = new Vector3(99.800293f, 108.522842f, 135.937988f);
+            }
+
+            yield return null;
         }
 
-
-        yield return null;
+        //yield return null;
     }
 
     void ChosePlatform()
     {
         index = Random.Range(0, platforms.Length);
         platformToAttack = platforms[index];
+        Vector3 targetPosition = platformToAttack.transform.position;
         print(platformToAttack.name);
-        Vector3 directionToPlayer = platformPosition.transform.position - transform.position;
-        directionToPlayer.y = 0f;
-        transform.rotation = Quaternion.LookRotation(directionToPlayer.normalized);
+       
+        Vector3 directionToPlatform = targetPosition - transform.position;
+        directionToPlatform.y = 0f;
+        transform.rotation = Quaternion.LookRotation(-directionToPlatform.normalized * Time.deltaTime);
+        //enemyHead.transform.LookAt(directionToPlatform.normalized);
+
     }
+    public void StopSpawn() => StartCoroutine("ShootCoroutine");
+
 }
