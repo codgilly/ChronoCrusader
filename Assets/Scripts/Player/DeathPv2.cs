@@ -14,6 +14,7 @@ public class DeathPv2 : MonoBehaviour
     //turn of movemnt 
     public Behaviour dash;
     public Behaviour movemnt;
+    public Behaviour rewind;
 
     public float maxRewindDuration = 5f;
     public float rewindSpeed = 2f;

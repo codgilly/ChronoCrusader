@@ -35,7 +35,7 @@ public class MeleeAttackingSC : MonoBehaviour
     {
         if (TS.isInFuture == isInPast)
         {
-            anim.SetBool("Spear", true);
+            //anim.enabled = true;
             rb.rotation = player.transform.rotation;
             transform.LookAt(playerposition);
             StartCoroutine(MoveTowardsPlayer());
