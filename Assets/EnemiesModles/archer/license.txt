@@ -1,0 +1,11 @@
+Model Information:
+* title:	Archer
+* source:	https://sketchfab.com/3d-models/archer-044c6aaf558b49d38e9ba9bbf323d6c8
+* author:	Octovon (https://sketchfab.com/octovon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Archer" (https://sketchfab.com/3d-models/archer-044c6aaf558b49d38e9ba9bbf323d6c8) by Octovon (https://sketchfab.com/octovon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

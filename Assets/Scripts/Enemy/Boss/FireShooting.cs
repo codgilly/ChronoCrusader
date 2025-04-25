@@ -74,7 +74,7 @@ public class FireShooting : MonoBehaviour
        
         Vector3 directionToPlatform = targetPosition - transform.position;
         directionToPlatform.y = 0f;
-        transform.rotation = Quaternion.LookRotation(-directionToPlatform.normalized * Time.deltaTime);
+        transform.rotation = Quaternion.LookRotation(directionToPlatform.normalized * Time.deltaTime);
         //enemyHead.transform.LookAt(directionToPlatform.normalized);
 
     }
