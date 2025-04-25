@@ -1,0 +1,6 @@
+Link lazers to heat bubble - when bubble is 0,0,0 enable=false
+change rotation of fireing point depending of platform 
+make health bar work
+add colision
+
+finish melee and ranged enemy assests and scripting 
