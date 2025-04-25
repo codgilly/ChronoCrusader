@@ -90,6 +90,7 @@ public class DeathPv2 : MonoBehaviour
         Time.timeScale = timespeedup;
         movemnt.enabled = false;
         dash.enabled = false;
+        rewind.enabled = false;
         isRewinding = true;
         timerON = false;
         effect.SetActive(true);
@@ -100,6 +101,7 @@ public class DeathPv2 : MonoBehaviour
         Time.timeScale = 1f;
         movemnt.enabled = true;
         dash.enabled = true;
+        rewind.enabled = true;
         isRewinding = false;
         effect.SetActive(false);
     }

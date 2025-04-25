@@ -734,7 +734,6 @@ GameObject:
   - component: {fileID: 6866244910523292904}
   - component: {fileID: 4970781283544285781}
   - component: {fileID: 2622021376379152052}
-  - component: {fileID: 2807915422291826002}
   - component: {fileID: 6754520796202510580}
   - component: {fileID: 2810962868143387463}
   - component: {fileID: 8922467982055461494}
@@ -920,22 +919,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxRewindDuration: 30
   rewindSpeed: 20
---- !u!114 &2807915422291826002
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7690850342813376740}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f346e9a12cdae2149a85d57c098bc8a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 1
-  DeathScreen: {fileID: 0}
-  Parry: {fileID: 8300000, guid: 0f5e008122cbe4a41abfcd5f4e8c6997, type: 3}
-  audioSource: {fileID: 8922467982055461494}
 --- !u!114 &6754520796202510580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,8 +934,13 @@ MonoBehaviour:
   starttimer: 0
   dash: {fileID: 792133403641824164}
   movemnt: {fileID: 386969476806012149}
+  rewind: {fileID: 2622021376379152052}
   maxRewindDuration: 30
   rewindSpeed: 2
+  isRewinding: 0
+  checkPoint: {fileID: 0}
+  effect: {fileID: 0}
+  timespeedup: 2
 --- !u!136 &2810962868143387463
 CapsuleCollider:
   m_ObjectHideFlags: 0
