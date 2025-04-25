@@ -46,18 +46,18 @@ public class FireShooting : MonoBehaviour
             GameObject bulletObj = Instantiate(bullet, spawnPoint.transform.position, spawnPoint.transform.rotation) as GameObject;
             Rigidbody bulletRig = bulletObj.GetComponent<Rigidbody>();
             bulletRig.AddForce(bulletRig.transform.forward * bulletSpeed);
-            Destroy(bulletObj, 2f);
+            Destroy(bulletObj, 4f);
 
             yield return new WaitForSeconds(waitTime);
 
             ammo--;
-            heatBox.transform.localScale -= new Vector3(4, 5, 6);
+            heatBox.transform.localScale -= new Vector3(7, 7, 7);
             if (ammo <= 0)
             {
                 heatBox.transform.localScale = new Vector3(0, 0, 0);
                 ammo = maxAmmo;
                 yield return new WaitForSeconds(reloadTime);
-                heatBox.transform.localScale = new Vector3(99.800293f, 108.522842f, 135.937988f);
+                heatBox.transform.localScale = new Vector3(166.981094f, 166.700409f, 161.649307f);
             }
 
             yield return null;
