@@ -34,18 +34,17 @@ public class HealthHit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(linkedBoss.Sharedhealth >= Sharedhealth)
+        if(linkedBoss.Sharedhealth <= Sharedhealth)
         {
             linkedBoss.Sharedhealth = Sharedhealth;
         }
-        else if(linkedBoss.Sharedhealth <= Sharedhealth)
+        
+
+        if (linkedBoss.Sharedhealth >= Sharedhealth)
         {
             Sharedhealth = linkedBoss.Sharedhealth;
         }
-        else
-        {
-            linkedBoss.Sharedhealth = Sharedhealth;
-        }
+        
 
         
         if (Sharedhealth <= 0)

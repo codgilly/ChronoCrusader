@@ -15,6 +15,7 @@ public class DeathPv2 : MonoBehaviour
     public Behaviour dash;
     public Behaviour movemnt;
     public Behaviour rewind;
+    public Behaviour Grapple;
 
     public float maxRewindDuration = 5f;
     public float rewindSpeed = 2f;
@@ -91,6 +92,7 @@ public class DeathPv2 : MonoBehaviour
         movemnt.enabled = false;
         dash.enabled = false;
         rewind.enabled = false;
+        Grapple.enabled = false;
         isRewinding = true;
         timerON = false;
         effect.SetActive(true);
@@ -102,6 +104,7 @@ public class DeathPv2 : MonoBehaviour
         movemnt.enabled = true;
         dash.enabled = true;
         rewind.enabled = true;
+        Grapple.enabled = true;
         isRewinding = false;
         effect.SetActive(false);
     }
@@ -152,8 +155,10 @@ public class DeathPv2 : MonoBehaviour
 
             else
             {
+                Grapple.enabled = false;
                 transform.position = checkPoint.transform.position;
                 Physics.SyncTransforms();
+                Grapple.enabled = true;
             }
         }
 
@@ -183,8 +188,10 @@ public class DeathPv2 : MonoBehaviour
 
             else
             {
+                Grapple.enabled = false;
                 transform.position = checkPoint.transform.position;
                 Physics.SyncTransforms();
+                Grapple.enabled = true;
             }
         }
     }
