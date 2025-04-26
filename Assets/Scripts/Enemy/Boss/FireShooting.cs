@@ -22,6 +22,8 @@ public class FireShooting : MonoBehaviour
     public float bulletSpeed = 10f;
     public Transform platformPosition;
 
+    public float rotationSpeed;
+
     public GameObject heatBox;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -76,6 +78,7 @@ public class FireShooting : MonoBehaviour
         Vector3 directionToPlatform = targetPosition - transform.position;
         directionToPlatform.y = 0f;
         transform.rotation = Quaternion.LookRotation(directionToPlatform.normalized * Time.deltaTime);
+
         //enemyHead.transform.LookAt(directionToPlatform.normalized);
 
     }

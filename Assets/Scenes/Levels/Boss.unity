@@ -1579,7 +1579,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 562315143}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcabf5cd851c1d84dad271167f0fc566, type: 3}
   m_Name: 
@@ -8442,6 +8442,10 @@ PrefabInstance:
       propertyPath: dash2
       value: 
       objectReference: {fileID: 1246239332}
+    - target: {fileID: 2622021376379152052, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2807915422291826002, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: DeathScreen
       value: 
@@ -8515,8 +8519,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 684044085}
     - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: rewindSpeed
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: timespeedup
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: maxRewindDuration
+      value: 440.3
       objectReference: {fileID: 0}
     - target: {fileID: 6866244910523292904, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: pastPlane
@@ -14356,6 +14368,7 @@ MonoBehaviour:
   maxAmmo: 25
   bulletSpeed: 12000
   platformPosition: {fileID: 0}
+  rotationSpeed: 5
   heatBox: {fileID: 372733636}
 --- !u!4 &984198889 stripped
 Transform:
@@ -25265,7 +25278,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 16.401575, y: 28.83422, z: 38.505314}
