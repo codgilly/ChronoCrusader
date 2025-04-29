@@ -35,7 +35,7 @@ public class MeleeAttackingSC : MonoBehaviour
     {
         if (TS.isInFuture == isInPast)
         {
-            //anim.enabled = true;
+            anim.SetBool("Spear", true);
             rb.rotation = player.transform.rotation;
             transform.LookAt(playerposition);
             StartCoroutine(MoveTowardsPlayer());
@@ -58,6 +58,7 @@ public class MeleeAttackingSC : MonoBehaviour
 
     public void SpearTag()
     {
+        anim.SetBool("Spear", false);
         spear.gameObject.tag = "nothing";
     }
 
