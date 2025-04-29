@@ -30,6 +30,7 @@ public class StartAndQuit : MonoBehaviour
 
     public void Resume()
     {
+        pauseScreen.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         Time.timeScale = 1;

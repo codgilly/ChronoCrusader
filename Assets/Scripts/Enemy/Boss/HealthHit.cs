@@ -67,7 +67,7 @@ public class HealthHit : MonoBehaviour
                 Sharedhealth--;
                 goBack.SetActive(true);
 
-                Invoke("GoBack", 0.018f);
+                Invoke("GoBack", 0.1f);
             }
         }
     }
