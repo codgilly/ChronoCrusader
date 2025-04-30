@@ -7,7 +7,6 @@ using UnityEngine.UI;
 
 public class HealthHit : MonoBehaviour
 {
-    public List<GameObject> imageList;
 
     public GameObject goBack;
 
@@ -19,12 +18,10 @@ public class HealthHit : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Sharedhealth = imageList.Count - 1;
-
         goBack.SetActive(false);
 
-        linkedBoss = GetComponent<HealthHit>();
-        if(linkedBoss == null)
+        //linkedBoss = GetComponent<HealthHit>();
+        if (linkedBoss == null)
         {
             print("Boo");
         }
@@ -34,18 +31,6 @@ public class HealthHit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(linkedBoss.Sharedhealth <= Sharedhealth)
-        {
-            linkedBoss.Sharedhealth = Sharedhealth;
-        }
-        
-
-        if (linkedBoss.Sharedhealth >= Sharedhealth)
-        {
-            Sharedhealth = linkedBoss.Sharedhealth;
-        }
-        
-
         
         if (Sharedhealth <= 0)
         {
@@ -55,20 +40,17 @@ public class HealthHit : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if(other.gameObject.tag == "Attacking")
         {
             print("hit");
 
-            if(Sharedhealth >= 0)
-            {
-                imageList[Sharedhealth].gameObject.SetActive(false);
-                Sharedhealth--;
-                goBack.SetActive(true);
+            Sharedhealth--;
+            linkedBoss.Sharedhealth = Sharedhealth;
+            goBack.SetActive(true);
 
-                Invoke("GoBack", 0.1f);
-            }
+            Invoke("GoBack", 0.1f);
         }
     }
     

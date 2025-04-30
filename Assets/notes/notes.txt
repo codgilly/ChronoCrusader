@@ -1,6 +1,2 @@
-Link lazers to heat bubble - when bubble is 0,0,0 enable=false
-change rotation of fireing point depending of platform 
-make health bar work
-add colision
-
-finish melee and ranged enemy assests and scripting 
+Add Mouse detection for buttons - only activates if mouse is on button - prompt a button to show like z or f
+this plays an animation- open doors or something like that to continue level

@@ -12,6 +12,8 @@ public class FireShooting : MonoBehaviour
 
     int index;
 
+    public int turnSpeed;
+
     [Header("shooting")]
     public GameObject bullet;
     public Transform spawnPoint;
@@ -77,7 +79,10 @@ public class FireShooting : MonoBehaviour
        
         Vector3 directionToPlatform = targetPosition - transform.position;
         directionToPlatform.y = 0f;
+
         transform.rotation = Quaternion.LookRotation(directionToPlatform.normalized * Time.deltaTime);
+        
+
 
         //enemyHead.transform.LookAt(directionToPlatform.normalized);
 
