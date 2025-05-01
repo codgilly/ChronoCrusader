@@ -7,6 +7,8 @@ public class ButtonPress : MonoBehaviour
 
     public GameObject UI;
 
+    public bool floorButton;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,12 +19,30 @@ public class ButtonPress : MonoBehaviour
 
     void OnMouseOver()
     {
-        UI.gameObject.SetActive(true);
-
-        if (Input.GetKeyDown(KeyCode.F))
+        if(floorButton == false)
         {
-            UI.gameObject.SetActive(false);
-            anim.SetBool("Open", true);
+            UI.gameObject.SetActive(true);
+
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                UI.gameObject.SetActive(false);
+                anim.SetBool("Open", true);
+            }
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        if(floorButton == true)
+        {
+            if(other.gameObject.tag == ("Enemy") || other.gameObject.tag == ("Box"))
+            {
+                anim.SetBool("Open", true);
+            }
+        }
+        else
+        {
+            print("Wrong One");
         }
     }
 

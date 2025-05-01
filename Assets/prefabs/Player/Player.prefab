@@ -899,7 +899,7 @@ MonoBehaviour:
   grappleRaycastDistance: 100
   grappleLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   camera: {fileID: 787148575862663209}
   player: {fileID: 3678630277766256184}
   target: {fileID: 0}
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxRewindDuration: 30
-  rewindSpeed: 20
+  rewindSpeed: 40
 --- !u!114 &6754520796202510580
 MonoBehaviour:
   m_ObjectHideFlags: 0
