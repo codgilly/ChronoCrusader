@@ -835,7 +835,7 @@ MonoBehaviour:
   dashTime: 1.06
   dashCoolDown: 1.5
   dashTimmer: 0
-  dashClip: {fileID: 8300000, guid: 5e7d35f68996bb74592b51a28318ff2e, type: 3}
+  dashClip: {fileID: 8300000, guid: 605241d1c351463439b569c28f7989aa, type: 3}
   dash1: {fileID: 0}
   dash2: {fileID: 0}
   dashColor: {r: 0, g: 0.5726497, b: 1, a: 1}

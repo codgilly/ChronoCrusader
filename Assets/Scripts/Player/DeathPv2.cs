@@ -195,4 +195,24 @@ public class DeathPv2 : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+
+        if (other.gameObject.tag == "DeathZone")
+        {
+            if (checkpointhit == false)
+            {
+                SceneManager.LoadScene(ThisScene);
+            }
+
+            else
+            {
+                Grapple.enabled = false;
+                transform.position = checkPoint.transform.position;
+                Physics.SyncTransforms();
+                Grapple.enabled = true;
+            }
+        }
+    }
 }
