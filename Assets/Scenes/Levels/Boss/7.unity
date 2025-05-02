@@ -10046,15 +10046,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4176372303396869758, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.41818726
+      value: 0.2722475
       objectReference: {fileID: 0}
     - target: {fileID: 4176372303396869758, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.41818723
+      value: 0.28926292
       objectReference: {fileID: 0}
     - target: {fileID: 4176372303396869758, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.41818726
+      value: 0.2722475
       objectReference: {fileID: 0}
     - target: {fileID: 4228672390260347517, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_Pivot.x
@@ -14335,6 +14335,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   platforms: []
   enemyHead: {fileID: 0}
+  turnSpeed: 0
   bullet: {fileID: 4000221672362767103, guid: 27bbece53749de14c8977539a3cf8a06, type: 3}
   spawnPoint: {fileID: 1150257564}
   waitTime: 0.8
