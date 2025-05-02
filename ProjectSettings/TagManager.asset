@@ -7,7 +7,6 @@ TagManager:
   - nothing
   - Attacking
   - Parrying
-  - AreaOfKnowledge
   - AttackedEnemy
   - DeathZone
   - Enemy
@@ -16,6 +15,7 @@ TagManager:
   - areaGO
   - CheckPoint
   - PastPlatforms
+  - Box
   layers:
   - Default
   - TransparentFX

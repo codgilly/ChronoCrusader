@@ -46,6 +46,21 @@ public class ButtonPress : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (floorButton == true)
+        {
+            if (other.gameObject.tag == ("Enemy") || other.gameObject.tag == ("Box"))
+            {
+                anim.SetBool("Open", false);
+            }
+        }
+        else
+        {
+            print("Wrong One");
+        }
+    }
+
     void OnMouseExit()
     {
         UI.gameObject.SetActive(false);
