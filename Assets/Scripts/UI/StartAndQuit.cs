@@ -9,10 +9,18 @@ public class StartAndQuit : MonoBehaviour
     private int thisScene;
 
     public GameObject pauseScreen;
+
+    public bool titleScreen;
     void Start()
     {
         thisScene = SceneManager.GetActiveScene().buildIndex;
         nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+
+        if(titleScreen == true)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     private void Update()

@@ -450,6 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseScreen: {fileID: 0}
+  titleScreen: 1
 --- !u!1 &366603280
 GameObject:
   m_ObjectHideFlags: 0
