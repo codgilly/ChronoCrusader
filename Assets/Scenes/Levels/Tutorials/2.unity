@@ -935,6 +935,87 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116353681}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &141741971
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3646045687204639887, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_Name
+      value: Lore
+      objectReference: {fileID: 0}
+    - target: {fileID: 5403299181170269025, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: lore
+      value: 
+      objectReference: {fileID: 1401086085}
+    - target: {fileID: 5403299181170269025, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: interact
+      value: 
+      objectReference: {fileID: 2083207660}
+    - target: {fileID: 6941242543599400664, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_Size.x
+      value: 24.428944
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941242543599400664, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_Size.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941242543599400664, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_Center.x
+      value: -0.9729233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941242543599400664, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_Center.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.24288768
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 972.3963
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 166.70271
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8318956820713228251, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
 --- !u!1 &144985292
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,6 +6721,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 168.66956, y: 19.109272, z: 393.96274}
   m_Center: {x: -6.0064697, y: -6.167776, z: 156.8228}
+--- !u!1 &1401086085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1823501800596072827, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+  m_PrefabInstance: {fileID: 2083207655}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1459043318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8876,6 +8962,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1823501800596072827, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3037823517771556596, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_text
+      value: The knights where on a crusade trying to protect their nieghboring village,
+        they were told a dragon came to the village and spread a evil virues to the
+        civillians corrupting them not allowing them to be "normal"
+      objectReference: {fileID: 0}
     - target: {fileID: 4228672390260347517, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -9754,3 +9850,4 @@ SceneRoots:
   - {fileID: 1803508766}
   - {fileID: 291487678}
   - {fileID: 995363699}
+  - {fileID: 141741971}
