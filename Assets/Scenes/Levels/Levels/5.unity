@@ -8984,7 +8984,9 @@ PrefabInstance:
         the new kid seems like he has been given the time
         travlers watch just "for fun" however I know that if you go to fast then
         something universe breaking will happen so next time I see him I am going
-        to make him use while skatebording to try and break everything'
+        to make him use while skatebording to try and break everything, Hopefully
+        he knows the platform won''t show the back room if there are any guards on
+        it.'
       objectReference: {fileID: 0}
     - target: {fileID: 4228672390260347517, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_Pivot.x
