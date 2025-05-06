@@ -21,6 +21,7 @@ public class ButtonPress : MonoBehaviour
     {
         if(floorButton == false)
         {
+            print("debugtest");
             UI.gameObject.SetActive(true);
 
             if (Input.GetKeyDown(KeyCode.F))
