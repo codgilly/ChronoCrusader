@@ -800,7 +800,7 @@ MonoBehaviour:
   playerCamera: {fileID: 7277967733991295396}
   walkSpeed: 13
   runSpeed: 15
-  jumpPower: 7
+  jumpPower: 8
   gravity: 10
   lookSpeed: 2
   lookXLimit: 59.5
