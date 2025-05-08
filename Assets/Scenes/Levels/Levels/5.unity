@@ -5670,7 +5670,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: fb74d06c2d1ed7c4c8723994094d51fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6309,7 +6309,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: fb74d06c2d1ed7c4c8723994094d51fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7174,7 +7174,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 4ea44859007c2994f995bb8f14538058, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8988,6 +8988,14 @@ PrefabInstance:
         he knows the platform won''t show the back room if there are any guards on
         it.'
       objectReference: {fileID: 0}
+    - target: {fileID: 3893153762292666364, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: key
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893153762292666364, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: tutorialHint
+      value: pick up and drop all enemies of the platform - p to close
+      objectReference: {fileID: 0}
     - target: {fileID: 4228672390260347517, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -9071,6 +9079,22 @@ PrefabInstance:
     - target: {fileID: 5023311732737034807, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516211888310539018, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 488.0457
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516211888310539018, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 178.5928
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516211888310539018, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 244.02281
+      objectReference: {fileID: 0}
+    - target: {fileID: 8516211888310539018, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -96.29645
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

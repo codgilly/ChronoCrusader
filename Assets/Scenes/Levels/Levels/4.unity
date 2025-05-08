@@ -6564,6 +6564,10 @@ PrefabInstance:
       propertyPath: timespeedup
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 6754520796202510580, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
+      propertyPath: maxRewindDuration
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 6866244910523292904, guid: 788e1fe9e3df9314ca24c74e17db022a, type: 3}
       propertyPath: pastPlane
       value: 
@@ -15511,6 +15515,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2973576968261327700, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: key
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2973576968261327700, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: tutorialHint
+      value: put cube or enemy on button - P to close
+      objectReference: {fileID: 0}
     - target: {fileID: 3037823517771556596, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_text
       value: '15/4/2156 - THEY ARE SELFISH
@@ -15527,6 +15539,14 @@ PrefabInstance:
     - target: {fileID: 3585022889945171157, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893153762292666364, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: key
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 3893153762292666364, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: tutorialHint
+      value: E to grab objects
       objectReference: {fileID: 0}
     - target: {fileID: 4176372303396869758, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_LocalScale.x
@@ -15635,6 +15655,22 @@ PrefabInstance:
     - target: {fileID: 7389368487870291005, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854857988492906738, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 377.0299
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854857988492906738, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 139.862
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854857988492906738, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 188.51491
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854857988492906738, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -76.93106
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
