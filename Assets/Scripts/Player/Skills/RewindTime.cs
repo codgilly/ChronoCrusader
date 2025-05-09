@@ -4,6 +4,8 @@ using System.Collections;
 
 public class RewindTime : MonoBehaviour
 {
+    public float starttimer;
+    bool timerON;
 
     public float maxRewindDuration = 5f;
     public float rewindSpeed = 2f;
@@ -26,12 +28,18 @@ public class RewindTime : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        timerON = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (timerON == true && isRewinding == false)
+        {
+            starttimer += Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && starttimer >= 0)
         {
             StartRewind();
         }
@@ -39,6 +47,17 @@ public class RewindTime : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Q))
         {
             StopRewind();
+        }
+
+        if (isRewinding == true)
+        {
+            starttimer -= Time.deltaTime;
+
+            if (starttimer <= 0)
+            {
+                StopRewind();
+                timerON = true;
+            }
         }
     }
 
@@ -58,6 +77,7 @@ public class RewindTime : MonoBehaviour
     void StartRewind()
     {
         isRewinding = true;
+        timerON = false;
     }
 
     void StopRewind()

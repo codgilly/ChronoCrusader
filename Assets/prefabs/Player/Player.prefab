@@ -229,7 +229,6 @@ GameObject:
   m_Component:
   - component: {fileID: 787148575862663209}
   - component: {fileID: 7277967733991295396}
-  - component: {fileID: 1285648037095769824}
   - component: {fileID: 2084287493055875390}
   m_Layer: 0
   m_Name: Camera
@@ -307,14 +306,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1285648037095769824
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678840944055570587}
-  m_Enabled: 1
 --- !u!114 &2084287493055875390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -737,6 +728,7 @@ GameObject:
   - component: {fileID: 6754520796202510580}
   - component: {fileID: 2810962868143387463}
   - component: {fileID: 8922467982055461494}
+  - component: {fileID: 144035747386401973}
   m_Layer: 0
   m_Name: Player
   m_TagString: nothing
@@ -917,6 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcabf5cd851c1d84dad271167f0fc566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starttimer: 0
   maxRewindDuration: 30
   rewindSpeed: 40
 --- !u!114 &6754520796202510580
@@ -1062,6 +1055,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &144035747386401973
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7690850342813376740}
+  m_Enabled: 1
 --- !u!1001 &1685879707694130938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1235,8 +1236,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.070997246, y: 1.594054, z: 0.020589048}
-  m_Center: {x: -0.000000006049067, y: -0.20297301, z: -0.000000006049067}
+  m_Size: {x: 0.17738321, y: 1.6622921, z: 0.020589048}
+  m_Center: {x: -0.017630609, y: -0.23709208, z: -0.00000040286912}
 --- !u!4 &1220418135595188497 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 12015d72336aa694c99cc917017cd2d4, type: 3}
@@ -1309,8 +1310,8 @@ BoxCollider:
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.12622596, y: 1.9125702, z: 0.12742297}
-  m_Center: {x: -0.0029254328, y: -0.12808575, z: -0.000019895611}
+  m_Size: {x: 0.19149145, y: 1.9975657, z: 0.12742297}
+  m_Center: {x: -0.035558466, y: -0.17058349, z: -0.000020036001}
 --- !u!23 &4618789846925466678 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 6303999673196198604, guid: 12015d72336aa694c99cc917017cd2d4, type: 3}

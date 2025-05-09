@@ -60,7 +60,7 @@ public class SwordSC : MonoBehaviour
         if (gameObject.tag == ("Parrying") && other.gameObject.tag == ("AttackedEnemy"))
         {
             ParryBullet();
-            other.gameObject.tag = ("nothing");
+            //other.gameObject.tag = ("nothing");
             bladeRenderer.material.color = bladeParryColour;
             audioSource.PlayOneShot(Parry);
         }

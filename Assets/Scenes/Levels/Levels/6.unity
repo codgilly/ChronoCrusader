@@ -736,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -2605,7 +2605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -3256,7 +3256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -3912,7 +3912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -4953,7 +4953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -6750,7 +6750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -6986,7 +6986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -7104,7 +7104,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -7766,7 +7766,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -11060,7 +11060,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -11693,7 +11693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -13546,7 +13546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1823501800596072827, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2973576968261327700, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
       propertyPath: key
@@ -13711,11 +13711,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3033347776517835206, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
   m_PrefabInstance: {fileID: 1329430347}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1329430351 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1823501800596072827, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
+--- !u!114 &1329430351 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3037823517771556596, guid: a04eb8e3dde3e0f4aaa212b4098d885a, type: 3}
   m_PrefabInstance: {fileID: 1329430347}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1348559222
 GameObject:
   m_ObjectHideFlags: 0
@@ -13860,7 +13866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -15520,7 +15526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -15627,7 +15633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -17823,7 +17829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -19311,6 +19317,13 @@ PrefabInstance:
       propertyPath: interact
       value: 
       objectReference: {fileID: 1329430350}
+    - target: {fileID: 5403299181170269025, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
+      propertyPath: loreText
+      value: 4/8/2157 WHERE AM I I told him to go fast but he messed everything up
+        and now I am stuck in the past, i'm changin... my skin is going grey with
+        scales, I feel like my rage is turning me into something wrong. everything
+        is WRONG
+      objectReference: {fileID: 0}
     - target: {fileID: 6941242543599400664, guid: 9c078ead001ed4e4c86542b1bd8012c1, type: 3}
       propertyPath: m_Size.x
       value: 22.42894
@@ -20461,7 +20474,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -21018,7 +21031,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
@@ -21357,7 +21370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: isInPast
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3228334630940106049, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
       propertyPath: waitTime
