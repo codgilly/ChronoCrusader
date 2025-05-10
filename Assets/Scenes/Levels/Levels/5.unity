@@ -3532,6 +3532,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9104979225404943970, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
   m_PrefabInstance: {fileID: 744377131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &744377133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4516642702005190376, guid: 5050911866106b246bcebb7ae99584e0, type: 3}
+  m_PrefabInstance: {fileID: 744377131}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &774760425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3882,8 +3887,8 @@ Transform:
   m_GameObject: {fileID: 842806810}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -5.7999725, y: 6.5926514, z: -87.989975}
-  m_LocalScale: {x: 15.698754, y: 14.184766, z: 1}
+  m_LocalPosition: {x: -5.8, y: 6.5926514, z: -87.3781}
+  m_LocalScale: {x: 16.923256, y: 14.184766, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1732923472}
@@ -4967,7 +4972,7 @@ PrefabInstance:
     - target: {fileID: 2503000684474766735, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: linkedEnemy
       value: 
-      objectReference: {fileID: 1023625151}
+      objectReference: {fileID: 744377133}
     - target: {fileID: 2503000684474766735, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: rewindChecker
       value: 

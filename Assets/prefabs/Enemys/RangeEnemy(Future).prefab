@@ -135,9 +135,8 @@ MonoBehaviour:
   reloadTime: 6
   ammo: 10
   maxAmmo: 40
-  bulletSpeed: 1000
+  bulletSpeed: 600
   playerposition: {fileID: 0}
-  shoot: {fileID: 8300000, guid: a2aa85aa468536f4798f2e8647c6e02c, type: 3}
   deathSC: {fileID: 1164895950840516621}
   TS: {fileID: 0}
   isInPast: 0

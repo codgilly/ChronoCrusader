@@ -34,7 +34,7 @@ public class GrapplingGun : MonoBehaviour
         {
             StopGrapple();
             shootGrapplingGun();
-            Invoke("StopGrapple", 1);
+            Invoke("StopGrapple", 2.3f);
         }
 
     }

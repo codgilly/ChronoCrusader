@@ -274,7 +274,7 @@ MonoBehaviour:
   reloadTime: 3
   ammo: 10
   maxAmmo: 10
-  bulletSpeed: 1000
+  bulletSpeed: 600
   playerposition: {fileID: 0}
   deathSC: {fileID: 2503000684474766735}
   TS: {fileID: 0}
