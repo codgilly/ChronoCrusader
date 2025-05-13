@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8921675186249767167}
   - component: {fileID: 1395402443440907588}
   - component: {fileID: 7667903641503838830}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Capsule
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 883633428586442137}
   - component: {fileID: 3295017412837934707}
   - component: {fileID: 208444412015512630}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 4869037766982179374}
   - component: {fileID: 8745885815980966984}
   - component: {fileID: 7242502504749169722}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyMeleeTest(Past)
   m_TagString: Enemy
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -321,8 +321,9 @@ MonoBehaviour:
   deathBool: 0
   isRanged: 0
   Rangedenemy: {fileID: 0}
-  Kill: {fileID: 8300000, guid: 03f8855254f752b48bdb865072828771, type: 3}
-  audioSource: {fileID: 7242502504749169722}
+  worldTimer: 0
+  reviveTimer: 0
+  rewindChecker: {fileID: 0}
 --- !u!95 &8745885815980966984
 Animator:
   serializedVersion: 7
@@ -454,7 +455,7 @@ GameObject:
   - component: {fileID: 5541376299242577425}
   - component: {fileID: 4482705553753998281}
   - component: {fileID: 2257419220553686271}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemySwordpast
   m_TagString: nothing
   m_Icon: {fileID: 0}

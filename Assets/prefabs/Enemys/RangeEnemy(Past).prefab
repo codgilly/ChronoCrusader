@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4530908119357819102}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: shooting
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 6741071804046568648}
   - component: {fileID: 2606865003727524290}
   - component: {fileID: 676493112294977966}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 2503000684474766735}
   - component: {fileID: 8747014850054579598}
   - component: {fileID: 6332716461615850127}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RangeEnemy(Past)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
