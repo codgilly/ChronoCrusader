@@ -176,7 +176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: turoial 1
+  m_text: tutorial 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 4991243808102614548, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
@@ -585,9 +585,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: You are a time traveling agent who parkours through time. You have accidentally
-    went so fast you fused with a medival knight and now the two times are connected
-    together, travel through time to both unfuse with the knight and fix the time
-    lines so that peace is restoed.
+    went so fast you fused with a medieval knight and now the two times are connected
+    together, travel through time to both un-fuse with the knight and fix the time
+    lines so that peace is restored.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1636,10 +1636,10 @@ MonoBehaviour:
 
     V - slow time
 
-    left click - parry
+    left click - attack
 
     right
-    click - attakc'
+    click - parry'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 4991243808102614548, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
@@ -1932,7 +1932,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: turoial 3
+  m_text: tutorial 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 4991243808102614548, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
@@ -2261,7 +2261,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: turoial 2
+  m_text: tutorial 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 4991243808102614548, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
@@ -3052,7 +3052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 20.077026, y: -129}
+  m_AnchoredPosition: {x: 30, y: -129}
   m_SizeDelta: {x: 209.1796, y: 35.0827}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1190116521
@@ -4200,7 +4200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 29, y: -218}
+  m_AnchoredPosition: {x: 32, y: -205}
   m_SizeDelta: {x: 209.1796, y: 36.557312}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1852006385
