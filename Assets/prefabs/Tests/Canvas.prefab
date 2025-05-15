@@ -1948,10 +1948,10 @@ MonoBehaviour:
 
     V - slow time
 
-    left click - parry
+    left click - attack
 
     right
-    click - attakc'
+    click - parry'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
   m_sharedMaterial: {fileID: 4991243808102614548, guid: 693046443ca20b04a88f1c3bea76f143, type: 2}
