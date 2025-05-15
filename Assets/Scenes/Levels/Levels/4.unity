@@ -1909,20 +1909,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 883985212}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -2602,6 +2622,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 296855984}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &299303057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 1711753711}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &300009775
 GameObject:
   m_ObjectHideFlags: 0
@@ -3150,6 +3175,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 337889168}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &346299644 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 375508226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &349138893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3527,20 +3557,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 346299644}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -3975,6 +4025,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406748885}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &420311885 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 970443652}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &458705533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5455,6 +5510,11 @@ Transform:
   - {fileID: 1522557800}
   m_Father: {fileID: 838086651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &696953272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 2110902300}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &711067712
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,6 +6418,11 @@ Transform:
   - {fileID: 1234737968}
   m_Father: {fileID: 1115517308}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &883985212 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 203030585}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &898325047
 GameObject:
   m_ObjectHideFlags: 0
@@ -7089,20 +7154,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 420311885}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -9021,6 +9106,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156283497}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1157842370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 1825004984}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1178986801
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,6 +9936,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280963273}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1307065107 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 1951827199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1331905746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9911,20 +10006,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1335944544}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -10053,6 +10168,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335118765}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1335944544 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 1331905746}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1350561515
 GameObject:
   m_ObjectHideFlags: 0
@@ -12213,6 +12333,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645939950}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1646868754 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4530908119357819102, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+  m_PrefabInstance: {fileID: 1707327202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1659246261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12865,20 +12990,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1646868754}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -12964,20 +13109,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 299303057}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -14169,20 +14334,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1157842370}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -15442,20 +15627,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 1307065107}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
@@ -16656,20 +16861,40 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 932675959}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: ammo
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 9222552379675658560, guid: e3092cb6a3cf61d48bd30d55a779e6e1, type: 3}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 932675957}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: maxAmmo
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: isInPast
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: waitTime
-      value: 1
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: reloadTime
-      value: 0
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: spawnPoint
+      value: 
+      objectReference: {fileID: 696953272}
+    - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
+      propertyPath: bulletSpeed
+      value: 800
       objectReference: {fileID: 0}
     - target: {fileID: 8650828370734202063, guid: 880964af83c07f04cb2a4be726c965fb, type: 3}
       propertyPath: playerposition
